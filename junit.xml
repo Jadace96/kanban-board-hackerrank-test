@@ -1,0 +1,1836 @@
+<testsuites name="jest tests" tests="11" failures="10" time="0.967">
+  <testsuite name="undefined" errors="0" failures="10" skipped="0" timestamp="2019-10-31T21:58:55" time="0.967" tests="11">
+    <testcase classname=" Clicking on any card should display the name in textbox" name=" Clicking on any card should display the name in textbox" time="0.058">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-1&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:65:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" Once the card selected based on the current stage able move forward and backward" name=" Once the card selected based on the current stage able move forward and backward" time="0.035">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-4&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:85:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" If the card/task selected from the 1st stage should disable the &quot;Move backward&quot; button." name=" If the card/task selected from the 1st stage should disable the &quot;Move backward&quot; button." time="0.031">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-0&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:117:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" If the card/task selected from the last stage should disable the &quot;Move forward&quot; button." name=" If the card/task selected from the last stage should disable the &quot;Move forward&quot; button." time="0.03">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-9&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:137:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" After selecting task from 2nd stage and clicking on Move forward button move the card to 3rd stage." name=" After selecting task from 2nd stage and clicking on Move forward button move the card to 3rd stage." time="0.031">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-5&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:158:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" After selecting task from 2nd stage and clicking on Move backward button move the card to 1st stage." name=" After selecting task from 2nd stage and clicking on Move backward button move the card to 1st stage." time="0.029">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-5&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:184:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" Once the card selected and clicking on  Delete button should remove the card from board." name=" Once the card selected and clicking on  Delete button should remove the card from board." time="0.03">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-0&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:208:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" Clicking on &quot;Add card&quot; button should add one card in first stage and able move forward and backward. " name=" Clicking on &quot;Add card&quot; button should add one card in first stage and able move forward and backward. " time="0.014">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-new-task&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:243:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" Clicking on &quot;Add card&quot; button without any input should not affect anything" name=" Clicking on &quot;Add card&quot; button without any input should not affect anything" time="0.006">
+    </testcase>
+    <testcase classname=" Move forward an item till the last state and should disable the move forward button" name=" Move forward an item till the last state and should disable the move forward button" time="0.03">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-0&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:284:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+    <testcase classname=" Move backward an item till the first state and should disable the move backward button" name=" Move backward an item till the first state and should disable the move backward button" time="0.033">
+      <failure>Error: Unable to find an element by: [data-testid=&quot;task-task-9&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div
+      class=&quot;App&quot;
+    &gt;
+      &lt;div
+        style=&quot;background: rgb(214, 243, 255);&quot;
+      &gt;
+        &lt;h1&gt;
+          Controls
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;new-task-name-input&quot;
+            placeholder=&quot;New task name&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;create-task-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Create
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;input
+            data-testid=&quot;selected-task-field&quot;
+            placeholder=&quot;Selected task name&quot;
+            readonly=&quot;&quot;
+            style=&quot;font-size: 1rem;&quot;
+            value=&quot;&quot;
+          /&gt;
+          &lt;button
+            data-testid=&quot;move-back-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move back
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;move-forward-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Move forward
+          &lt;/button&gt;
+          &lt;button
+            data-testid=&quot;delete-btn&quot;
+            disabled=&quot;&quot;
+          &gt;
+            Delete
+          &lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h1&gt;
+          Kanban board
+        &lt;/h1&gt;
+        &lt;div
+          style=&quot;display: flex;&quot;
+        &gt;
+          &lt;div
+            data-testid=&quot;stage-0&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Backlog
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 0&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 0
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 1&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 1
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 2&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 2
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 3&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 3
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-1&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              To Do
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 4&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 4
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 5&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 5
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 6&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 6
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-2&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Ongoing
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 7&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 7
+              &lt;/div&gt;
+              &lt;div
+                data-testid=&quot;task-task 8&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 8
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div
+            data-testid=&quot;stage-3&quot;
+            style=&quot;background: rgb(250, 250, 250);&quot;
+          &gt;
+            &lt;h2&gt;
+              Done
+            &lt;/h2&gt;
+            &lt;div&gt;
+              &lt;div
+                data-testid=&quot;task-task 9&quot;
+                style=&quot;border: 1px solid #ccc;&quot;
+              &gt;
+                task 9
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at getElementError (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:46:10)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:100:13
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/@testing-library/dom/dist/query-helpers.js:83:17
+    at Object.&lt;anonymous&gt; (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/src/App.test.js:314:16)
+    at Object.asyncFn (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/jorgedaniel/Desktop/Hackerrank/react--kanban-board-acfsgqof7t0/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
